@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio personal Nama Kamu, mahasiswa yang membangun website dan aplikasi.">
+  <title>Nama Kamu | Portofolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a class="brand" href="#home">Muhammad Ihsan</a>
+    <nav aria-label="Navigasi utama">
+      <ul class="nav-list">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#about">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#projects">Proyek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="hero-hello">Halo, saya Muhammad Ihsan.</p>
+        <h1>Saya membuat website yang rapi dan mudah dipakai.</h1>
+        <p class="hero-sub">Mahasiswa Manajemen Informatika dari Politeknik Negeri Medan, yang sedang belajar pengembangan web. Saat ini saya fokus pada HTML, CSS, dan JavaScript.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Lihat proyek</a>
+          <a class="btn btn-ghost" href="#contact">Hubungi saya</a>
+        </div>
+      </div>
+      <figure class="hero-photo">
+        <img src="Foto profil (2).jpeg" alt="Foto profil Nama Kamu" width="600" height="600">
+      </figure>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>Tentang saya</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Saya mahasiswa semester 3 di Politeknik Negeri Medan,Sumatera Utara. Saya mulai tertarik pada pengembangan web setelah membuat halaman pertama saya sendiri, dan sejak itu saya rutin membuat proyek kecil untuk berlatih.</p>
+          <p>Saya suka mengubah desain menjadi halaman yang bisa dibuka di semua ukuran layar. Saya juga senang bekerja dalam tim dan belajar dari kode orang lain.</p>
+        </div>
+        <dl class="facts">
+          <div><dt>Pendidikan</dt><dd>D3 Manajemen Informatika</dd></div>
+          <div><dt>Lokasi</dt><dd>Medan, Indonesia</dd></div>
+          <div><dt>Fokus</dt><dd>Front-end web</dd></div>
+          <div><dt>Status</dt><dd>Terbuka untuk magang</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-tint">
+      <h2>Keahlian</h2>
+      <ul class="skills">
+        <li>
+          <span class="skill-name">HTML5</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 4 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+        </li>
+        <li>
+          <span class="skill-name">CSS3 dan Responsive Design</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 4 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span>
+        </li>
+        <li>
+          <span class="skill-name">JavaScript</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 3 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
+        </li>
+        <li>
+          <span class="skill-name">Git dan GitHub</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 3 dari 5"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></span>
+        </li>
+        <li>
+          <span class="skill-name">Desain di Figma</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 2 dari 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span>
+        </li>
+        <li>
+          <span class="skill-name">Python</span>
+          <span class="skill-level" role="img" aria-label="Tingkat 2 dari 5"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></span>
+        </li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <h2>Proyek</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Website Warung Kopi</h3>
+          <p>Halaman profil untuk usaha kopi lokal dengan daftar menu, jam buka, dan peta lokasi. Dibuat dengan layout grid yang menyesuaikan layar.</p>
+          <p class="tags">HTML, CSS</p>
+          <a href="#" class="link">Lihat kode di GitHub</a>
+        </article>
+        <article class="project">
+          <h3>Aplikasi Catatan Tugas</h3>
+          <p>Aplikasi daftar tugas kuliah. Pengguna bisa menambah, mencentang, dan menghapus tugas, dan data tersimpan di browser.</p>
+          <p class="tags">HTML, CSS, JavaScript</p>
+          <a href="#" class="link">Lihat kode di GitHub</a>
+        </article>
+        <article class="project">
+          <h3>Kalkulator Pengeluaran</h3>
+          <p>Alat sederhana untuk mencatat uang saku bulanan dan menampilkan sisa saldo secara langsung.</p>
+          <p class="tags">HTML, CSS, JavaScript</p>
+          <a href="#" class="link">Lihat kode di GitHub</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-dark">
+      <h2>Kontak</h2>
+      <p class="contact-lead">Ada pertanyaan atau tawaran kerja sama? Kirim email, saya balas dalam dua hari.</p>
+      <ul class="contact-list">
+        <li><span>Email</span><a href="mailto:muhammadihsan15012008@gmail.com?subject=Halo%20Saya%20ingin%20bekerja%20sama">muhammadihsan15012008@gmail.com</a>
+        <li><span>GitHub</span><a href="https://github.com/muhammadihsan15012008-dev" target="_blank" rel="noopener">https://github.com/muhammadihsan15012008-dev</a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/" target="_blank" rel="noopener">https://www.linkedin.com/</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Muhammad Ihsan. Dibuat dengan HTML dan CSS.</p>
+  </footer>
+
+</body>
+</html>
